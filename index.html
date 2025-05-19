@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaxFurture - Affordable Modern Furniture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.0/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="top-bar">
+                <div class="logo">Max<span>Furture</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-btns">
+                    <button class="nav-btn" id="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                    <div class="language-selector">
+                        <button class="nav-btn" id="language-btn">
+                            <i class="fas fa-globe"></i>
+                        </button>
+                        <div class="language-dropdown" id="language-dropdown">
+                            <div class="language-option" data-lang="en">English</div>
+                            <div class="language-option" data-lang="sw">Swahili</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Swiper -->
+    <section class="hero" id="home">
+        <div class="swiper hero-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide"
+                    style="background-image: url('./images/ryan-riggins-9v7UJS92HYc-unsplash.jpg')">
+                    <div class="slide-content">
+                        <h1>Modern Furniture for Modern Lives</h1>
+                        <p>Discover our premium furniture collection at affordable prices. Quality and style without
+                            breaking the bank.</p>
+                        <a href="#products" class="btn">Shop Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide"
+                    style="background-image: url('./images/paul-weaver-nWidMEQsnAQ-unsplash.jpg')">
+                    <div class="slide-content">
+                        <h1>Elevate Your Living Space</h1>
+                        <p>Transform your home with our carefully curated furniture collections. Comfort meets style.
+                        </p>
+                        <a href="#products" class="btn">Explore Collection</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide"
+                    style="background-image: url('./images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg')">
+                    <div class="slide-content">
+                        <h1>Quality Furniture, Affordable Prices</h1>
+                        <p>MaxFurture brings you the perfect balance of quality, style, and affordability.</p>
+                        <a href="#products" class="btn">View Offers</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose MaxFurture?</h2>
+                <p>We pride ourselves on delivering premium furniture at affordable prices without compromising on
+                    quality or style.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card fadeIn">
+                    <div class="feature-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Premium Quality</h3>
+                    <p>All our furniture is crafted from high-quality materials to ensure durability and longevity.</p>
+                </div>
+                <div class="feature-card fadeIn" style="animation-delay: 0.2s">
+                    <div class="feature-icon">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h3>Affordable Prices</h3>
+                    <p>We cut out the middleman to bring you premium furniture at the most competitive prices.</p>
+                </div>
+                <div class="feature-card fadeIn" style="animation-delay: 0.4s">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Fast Delivery</h3>
+                    <p>Enjoy quick and reliable delivery services to your doorstep anywhere in the country.</p>
+                </div>
+                <div class="feature-card fadeIn" style="animation-delay: 0.6s">
+                    <div class="feature-icon">
+                        <i class="fas fa-undo"></i>
+                    </div>
+                    <h3>Easy Returns</h3>
+                    <p>Not satisfied? Return within 30 days for a full refund or exchange with no questions asked.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Featured Products</h2>
+                <p>Explore our wide range of modern, stylish, and affordable furniture pieces for every room in your
+                    home.</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-tags">
+                        <span class="product-tag">Sale</span>
+                    </div>
+                    <div class="product-img">
+                        <img src="./images/ryan-riggins-9v7UJS92HYc-unsplash.jpg" alt="Bedroom Set">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Living Room</div>
+                        <h3 class="product-title">Modern Comfort Sofa</h3>
+                        <p class="product-desc">A sleek and comfortable sofa perfect for modern living spaces. Available
+                            in multiple colors.</p>
+                        <div class="product-footer">
+                            <div class="product-price price-animation">tsh 100000</div>
+                            <button class="product-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="./images/paul-weaver-nWidMEQsnAQ-unsplash.jpg" alt="Bedroom Set">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Dining Room</div>
+                        <h3 class="product-title">Contemporary Dining Table</h3>
+                        <p class="product-desc">Elegant dining table with solid wood construction, perfect for family
+                            gatherings.</p>
+                        <div class="product-footer">
+                            <div class="product-price price-animation">tsh 67300</div>
+                            <button class="product-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-tags">
+                        <span class="product-tag">New</span>
+                    </div>
+                    <div class="product-img">
+                        <img src="./images/paul-weaver-nWidMEQsnAQ-unsplash.jpg" alt="Bedroom Set">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Bedroom</div>
+                        <h3 class="product-title">Minimalist Bedroom Set</h3>
+                        <p class="product-desc">Complete bedroom set including bed frame, nightstands, and dresser in a
+                            modern design.</p>
+                        <div class="product-footer">
+                            <div class="product-price price-animation">tsh 80000</div>
+                            <button class="product-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="./images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg" alt="Office Desk">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Office</div>
+                        <h3 class="product-title">Executive Office Desk</h3>
+                        <p class="product-desc">Spacious and stylish desk with storage drawers, perfect for your home
+                            office.</p>
+                        <div class="product-footer">
+                            <div class="product-price price-animation">tsh 17000</div>
+                            <button class="product-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-tags">
+                        <span class="product-tag">Bestseller</span>
+                    </div>
+                    <div class="product-img">
+                        <img src="./images/ryan-riggins-9v7UJS92HYc-unsplash.jpg" alt="Accent Chair">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Living Room</div>
+                        <h3 class="product-title">Scandinavian Accent Chair</h3>
+                        <p class="product-desc">Comfortable and stylish accent chair with solid wood legs and premium
+                            fabric.</p>
+                        <div class="product-footer">
+                            <div class="product-price price-animation">tsh 190000</div>
+                            <button class="product-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="./images/paul-weaver-nWidMEQsnAQ-unsplash.jpg" alt="Coffee Table">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Living Room</div>
+                        <h3 class="product-title">Glass Top Coffee Table</h3>
+                        <p class="product-desc">Modern coffee table with tempered glass top and geometric metal base.
+                        </p>
+                        <div class="product-footer">
+                            <div class="product-price price-animation">tsh 10000</div>
+                            <button class="product-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Customers Say</h2>
+                <p>Don't just take our word for it. See what our satisfied customers have to say about their MaxFurture
+                    experience.</p>
+            </div>
+            <div class="swiper testimonials-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-img">
+                                <img src="./images/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="Customer">
+                            </div>
+                            <p class="testimonial-text">"I was amazed by the quality of the furniture I received from
+                                MaxFurture. The sofa I purchased looks even better in person and was delivered right on
+                                time. Will definitely be shopping here again!"</p>
+                            <h4 class="testimonial-author">Sarah Johnson</h4>
+                            <p class="testimonial-role">Interior Designer</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-img">
+                                <img src="./images/melvin-ankrah-8YnWV1-QTGc-unsplash.jpg" alt="Customer">
+                            </div>
+                            <p class="testimonial-text">"MaxFurture has the best prices I've found for quality
+                                furniture. I furnished my entire apartment for less than what I would have paid
+                                elsewhere. The customer service was top-notch too!"</p>
+                            <h4 class="testimonial-author">Michael Brown</h4>
+                            <p class="testimonial-role">New Homeowner</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-img">
+                                <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" alt="Customer">
+                            </div>
+                            <p class="testimonial-text">"I've bought several pieces from MaxFurture for my office
+                                renovation and I'm incredibly impressed. The quality is excellent and the modern designs
+                                have received countless compliments from clients and employees alike."</p>
+                            <h4 class="testimonial-author">David Ndegwa</h4>
+                            <p class="testimonial-role">Business Owner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="fadeInUp">Transform Your Space Today</h2>
+            <p class="fadeInUp">Join thousands of satisfied customers who have transformed their living spaces with
+                MaxFurture's affordable luxury furniture. Subscribe to our newsletter for exclusive offers and design
+                tips.</p>
+            <div class="fadeInUp">
+                <a href="#" class="btn cta-btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">Max<span>Furture</span></div>
+                    <p class="footer-desc">MaxFurture is dedicated to providing high-quality, stylish furniture at
+                        affordable prices. We believe that everyone deserves to have a beautiful living space without
+                        breaking the bank.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-container">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-container">
+                    <h3 class="footer-title">Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Living Room</a></li>
+                        <li><a href="#">Bedroom</a></li>
+                        <li><a href="#">Dining Room</a></li>
+                        <li><a href="#">Office</a></li>
+                        <li><a href="#">Outdoor</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Furniture Avenue, Arusha, Tanzania</p>
+                    <p><i class="fas fa-phone"></i> +254 123 456 789</p>
+                    <p><i class="fas fa-envelope"></i> info@maxfurture.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Sat: 9AM - 6PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MaxFurture. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.0/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize Swiper
+        const heroSwiper = new Swiper('.hero-swiper', {
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+
+        const testimonialsSwiper = new Swiper('.testimonials-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                },
+                992: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        // Language Selector
+        const languageBtn = document.getElementById('language-btn');
+        const languageDropdown = document.getElementById('language-dropdown');
+        const languageOptions = document.querySelectorAll('.language-option');
+
+        // Toggle language dropdown
+        languageBtn.addEventListener('click', () => {
+            languageDropdown.classList.toggle('show');
+        });
+
+        // Close language dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!languageBtn.contains(e.target) && !languageDropdown.contains(e.target)) {
+                languageDropdown.classList.remove('show');
+            }
+        });
+
+        // Language translation functionality
+        const translations = {
+            en: {
+                home: "Home",
+                products: "Products",
+                features: "Features",
+                testimonials: "Testimonials",
+                contact: "Contact",
+                shopNow: "Shop Now",
+                exploreCollection: "Explore Collection",
+                viewOffers: "View Offers",
+                whyChoose: "Why Choose MaxFurture?",
+                prideLine: "We pride ourselves on delivering premium furniture at affordable prices without compromising on quality or style.",
+                premiumQuality: "Premium Quality",
+                qualityDesc: "All our furniture is crafted from high-quality materials to ensure durability and longevity.",
+                affordablePrices: "Affordable Prices",
+                pricesDesc: "We cut out the middleman to bring you premium furniture at the most competitive prices.",
+                fastDelivery: "Fast Delivery",
+                deliveryDesc: "Enjoy quick and reliable delivery services to your doorstep anywhere in the country.",
+                easyReturns: "Easy Returns",
+                returnsDesc: "Not satisfied? Return within 30 days for a full refund or exchange with no questions asked.",
+                featuredProducts: "Our Featured Products",
+                productsDesc: "Explore our wide range of modern, stylish, and affordable furniture pieces for every room in your home.",
+                addToCart: "Add to Cart",
+                customerSay: "What Our Customers Say",
+                testimonialDesc: "Don't just take our word for it. See what our satisfied customers have to say about their MaxFurture experience.",
+                transformSpace: "Transform Your Space Today",
+                joinText: "Join thousands of satisfied customers who have transformed their living spaces with MaxFurture's affordable luxury furniture. Subscribe to our newsletter for exclusive offers and design tips.",
+                quickLinks: "Quick Links",
+                categories: "Categories",
+                contactUs: "Contact Us",
+                allRights: "All Rights Reserved."
+            },
+            sw: {
+                home: "Nyumbani",
+                products: "Bidhaa",
+                features: "Vipengele",
+                testimonials: "wateja",
+                contact: "mawasiliano",
+                shopNow: "Nunua Sasa",
+                exploreCollection: "Chunguza Ukipendacho",
+                viewOffers: "Tazama Matoleo",
+                whyChoose: "Kwa Nini Uchague MaxFurture?",
+                prideLine: "Tunajivunia kuwaletea samani bora kwa bei nafuu bila kuathiri ubora au design.",
+                premiumQuality: "Ubora wa Juu",
+                qualityDesc: "Samani zetu zote zimetengenezwa kwa vifaa vya ubora wa juu kuhakikisha uimara na maisha marefu.",
+                affordablePrices: "Bei Nafuu",
+                pricesDesc: "Tunaondoa mtu wa kati ili kukuletea samani bora kwa bei za ushindani zaidi.",
+                fastDelivery: "tunakutumia ulipo",
+                deliveryDesc: "Furahia huduma za delivery kwa haraka na za kuaminika mpka mlangoni kwako popote nchini.",
+                easyReturns: "Urejeshaji Rahisi",
+                returnsDesc: "Haujaridhika? Rudisha ndani ya siku 30 kwa marejesho kamili au ubadilishe bila maswali yoyote.",
+                featuredProducts: "Bidhaa Zetu Maarufu na Bora",
+                productsDesc: "Chunguza samani zetu za kisasa, za mtindo, na za bei nafuu kwa kila chumba katika nyumba yako.",
+                addToCart: "Nunua",
+                customerSay: "Wateja Wetu Wanasema Nini",
+                testimonialDesc: "Usichukue tu neno letu. Tazama wateja wetu waliotuungisha wana nini cha kusema kuhusu uzoefu wao wa MaxFurture.",
+                transformSpace: "Badilisha Nafasi Yako Leo",
+                joinText: "Jiunge na maelfu ya wateja waliotuungish ambao wamebadilisha nafasi zao za kuishi na samani za MaxFurture za bei nafuu. Jiandikishe kwa jarida letu kwa matoleo ya kipekee na vidokezo vya ubunifu.",
+                quickLinks: "Viungo vya Haraka",
+                categories: "Jamii",
+                contactUs: "Wasiliana Nasi",
+                allRights: "Haki Zote Zimehifadhiwa."
+            }
+        };
+
+        // Language switching function
+        function switchLanguage(lang) {
+            // Save language preference
+            localStorage.setItem('maxfuture-lang', lang);
+
+            // Update navigation links
+            document.querySelectorAll('.nav-links a').forEach((link, index) => {
+                if (index === 0) link.textContent = translations[lang].home;
+                if (index === 1) link.textContent = translations[lang].products;
+                if (index === 2) link.textContent = translations[lang].features;
+                if (index === 3) link.textContent = translations[lang].testimonials;
+                if (index === 4) link.textContent = translations[lang].contact;
+            });
+
+            // Update hero section
+            const heroButtons = document.querySelectorAll('.hero .btn');
+            if (heroButtons[0]) heroButtons[0].textContent = translations[lang].shopNow;
+            if (heroButtons[1]) heroButtons[1].textContent = translations[lang].exploreCollection;
+            if (heroButtons[2]) heroButtons[2].textContent = translations[lang].viewOffers;
+
+            // Update features section
+            document.querySelector('.features .section-title h2').textContent = translations[lang].whyChoose;
+            document.querySelector('.features .section-title p').textContent = translations[lang].prideLine;
+
+            const featureCards = document.querySelectorAll('.feature-card');
+            featureCards[0].querySelector('h3').textContent = translations[lang].premiumQuality;
+            featureCards[0].querySelector('p').textContent = translations[lang].qualityDesc;
+            featureCards[1].querySelector('h3').textContent = translations[lang].affordablePrices;
+            featureCards[1].querySelector('p').textContent = translations[lang].pricesDesc;
+            featureCards[2].querySelector('h3').textContent = translations[lang].fastDelivery;
+            featureCards[2].querySelector('p').textContent = translations[lang].deliveryDesc;
+            featureCards[3].querySelector('h3').textContent = translations[lang].easyReturns;
+            featureCards[3].querySelector('p').textContent = translations[lang].returnsDesc;
+
+            // Update products section
+            document.querySelector('.products .section-title h2').textContent = translations[lang].featuredProducts;
+            document.querySelector('.products .section-title p').textContent = translations[lang].productsDesc;
+
+            // Update add to cart buttons
+            document.querySelectorAll('.product-btn').forEach(btn => {
+                btn.textContent = translations[lang].addToCart;
+            });
+
+            // Update testimonials section
+            document.querySelector('.testimonials .section-title h2').textContent = translations[lang].customerSay;
+            document.querySelector('.testimonials .section-title p').textContent = translations[lang].testimonialDesc;
+
+            // Update CTA section
+            document.querySelector('.cta h2').textContent = translations[lang].transformSpace;
+            document.querySelector('.cta p').textContent = translations[lang].joinText;
+            document.querySelector('.cta .btn').textContent = translations[lang].shopNow;
+
+            // Update footer
+            document.querySelectorAll('.footer-title')[0].textContent = translations[lang].quickLinks;
+            document.querySelectorAll('.footer-title')[1].textContent = translations[lang].categories;
+            document.querySelectorAll('.footer-title')[2].textContent = translations[lang].contactUs;
+
+            // Update copyright text
+            document.querySelector('.footer-bottom p').textContent = `© 2025 MaxFurture. ${translations[lang].allRights}`;
+        }
+
+        // Handle language selection
+        languageOptions.forEach(option => {
+            option.addEventListener('click', () => {
+                const lang = option.getAttribute('data-lang');
+                switchLanguage(lang);
+                languageDropdown.classList.remove('show');
+            });
+        });
+
+        // Check for saved language preference
+        const savedLang = localStorage.getItem('maxfuture-lang');
+        if (savedLang) {
+            switchLanguage(savedLang);
+        }
+
+        // Animation for product prices
+        function animatePrices() {
+            const prices = document.querySelectorAll('.product-price');
+            prices.forEach(price => {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            price.style.opacity = "1";
+                        }
+                    });
+                }, { threshold: 0.5 });
+
+                observer.observe(price);
+            });
+        }
+
+        // Scroll animations
+        function initScrollAnimations() {
+            const elements = document.querySelectorAll('.fadeIn, .fadeInUp, .slide-in-left, .slide-in-right');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = "1";
+                        entry.target.style.transform = "translate(0, 0)";
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            elements.forEach(element => {
+                element.style.opacity = "0";
+                observer.observe(element);
+            });
+        }
+
+        // Initialize all animations when page loads
+        window.addEventListener('load', () => {
+            animatePrices();
+            initScrollAnimations();
+        });
+    </script>
+</body>
+
+</html>
